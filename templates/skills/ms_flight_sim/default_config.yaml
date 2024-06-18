@@ -1,0 +1,14 @@
+name: MsFlightSim
+module: skills.ms_flight_sim.main
+description:
+  en: Let your Wingman control MS Flight Simulator for you.
+  de: Lass deinen Wingman MS Flight Simulator für dich steuern.
+examples:
+  - question:
+      en: What is my altitude?
+      de: Wie hoch fliege ich?
+    answer:
+      en: You are currently flying at an altitude of 5000 feet.
+      de: Du fliegst derzeit in einer Höhe von 5000 Fuß.
+prompt: |
+  You can also read and set the aircraft and environment data from MS Flight Simulator.
